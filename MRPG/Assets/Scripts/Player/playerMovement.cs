@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,8 @@ public class playerMovement : MonoBehaviour
 
     public Animator animator;
 
+    public Camera cam;
+
 
     // Update is called once per frame
     void Update()
@@ -25,10 +28,19 @@ public class playerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        cam.transform.position = new Vector3(rb.position.x, rb.position.y, -10f);
+
     }
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement*moveSpeed*Time.fixedDeltaTime);
+        if(Math.Abs(movement.x) == Math.Abs(movement.y))
+        {
+            rb.MovePosition(rb.position + movement * (moveSpeed/1.5f) * Time.fixedDeltaTime);
+        }
+        else {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }    
+        
     }
 }
