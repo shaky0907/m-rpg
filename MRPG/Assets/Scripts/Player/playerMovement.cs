@@ -14,7 +14,7 @@ public class playerMovement : MonoBehaviour
 
     public Animator animator;
 
-    public Camera cam;
+  
 
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class playerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        cam.transform.position = new Vector3(rb.position.x, rb.position.y, -10f);
+        
 
     }
 

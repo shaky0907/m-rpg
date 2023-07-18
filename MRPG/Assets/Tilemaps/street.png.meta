@@ -131,7 +131,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: street_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 240
-        width: 16
-        height: 16
+        x: 2
+        y: 64
+        width: 44
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: street_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 240
-        width: 16
-        height: 16
+        x: 55
+        y: 48
+        width: 20
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: street_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 240
-        width: 16
-        height: 16
+        x: 85
+        y: 48
+        width: 20
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: street_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 240
-        width: 16
-        height: 16
+        x: 99
+        y: 96
+        width: 26
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: street_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 240
-        width: 16
-        height: 16
+        x: 132
+        y: 80
+        width: 8
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,15 +252,19 @@ TextureImporter:
       name: street_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 240
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 245
+        y: 80
+        width: 10
+        height: 38
+      alignment: 9
+      pivot: {x: 0.40219116, y: 0.36192822}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -5, y: -19}
+        - {x: -5, y: -5}
+        - {x: 3, y: -5}
+        - {x: 3, y: -19}
       tessellationDetail: 0
       bones: []
       spriteID: e71bd983380f05b47851d4024d074de9
@@ -273,12 +277,12 @@ TextureImporter:
       name: street_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 240
+        x: 176
+        y: 64
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,15 +298,19 @@ TextureImporter:
       name: street_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 240
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 195
+        y: 32
+        width: 10
+        height: 46
+      alignment: 9
+      pivot: {x: 0.49999848, y: 0.3711207}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4, y: -23}
+        - {x: -4, y: -11}
+        - {x: 4, y: -11}
+        - {x: 4, y: -23}
       tessellationDetail: 0
       bones: []
       spriteID: 9ee733e94a97d1746b4995b0f6df1012
@@ -315,15 +323,19 @@ TextureImporter:
       name: street_9
       rect:
         serializedVersion: 2
-        x: 144
-        y: 240
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 208
+        y: 32
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.1260109, y: 0.35356826}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -22}
+        - {x: -16, y: -9}
+        - {x: -8, y: -9}
+        - {x: -8, y: -22}
       tessellationDetail: 0
       bones: []
       spriteID: 37a922f8a20de374393cfd0ea782cc58
@@ -336,12 +348,12 @@ TextureImporter:
       name: street_10
       rect:
         serializedVersion: 2
-        x: 160
-        y: 240
-        width: 16
-        height: 16
+        x: 2
+        y: 32
+        width: 44
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -358,11 +370,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 240
+        y: 48
         width: 16
-        height: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,15 +390,19 @@ TextureImporter:
       name: street_12
       rect:
         serializedVersion: 2
-        x: 192
-        y: 240
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 0
+        width: 32
+        height: 38
+      alignment: 9
+      pivot: {x: 0.87552, y: 0.5074418}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -19}
+        - {x: 8, y: -4}
+        - {x: 16, y: -4}
+        - {x: 16, y: -19}
       tessellationDetail: 0
       bones: []
       spriteID: c82e4a009bef4f240bfa76c09ca8d0f3
@@ -399,15 +415,19 @@ TextureImporter:
       name: street_13
       rect:
         serializedVersion: 2
-        x: 208
-        y: 240
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 117
+        y: 0
+        width: 8
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5053587, y: 0.42800787}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4, y: -19}
+        - {x: -4, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: -19}
       tessellationDetail: 0
       bones: []
       spriteID: c8cbea9cb00713342b56599cbdb7440d
@@ -420,18 +440,18 @@ TextureImporter:
       name: street_14
       rect:
         serializedVersion: 2
-        x: 224
+        x: 16
         y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d3db052c0bc4264aa04df67a29471f3
+      spriteID: 7de0e75071841bc40be495581405e038
       internalID: 2013725406
       vertices: []
       indices: 
@@ -441,18 +461,22 @@ TextureImporter:
       name: street_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 208
+        y: 80
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.8711529, y: 0.44184503}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -21.5}
+        - {x: 8, y: -8.5}
+        - {x: 16, y: -8.5}
+        - {x: 16, y: -21.5}
       tessellationDetail: 0
       bones: []
-      spriteID: 638a38447825f784e890fa9283b34c7d
+      spriteID: 1876530c48f22b743859b010a1f30873
       internalID: 557341527
       vertices: []
       indices: 
@@ -462,18 +486,22 @@ TextureImporter:
       name: street_16
       rect:
         serializedVersion: 2
-        x: 16
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 80
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.49999952, y: 0.38230547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4, y: -24}
+        - {x: -4, y: -9}
+        - {x: 4, y: -9}
+        - {x: 4, y: -24}
       tessellationDetail: 0
       bones: []
-      spriteID: c0cfd7601a96c724aad2b55ed19a88a2
+      spriteID: 63bf9be60e1440140823944a5925a624
       internalID: 1331046922
       vertices: []
       indices: 
@@ -483,18 +511,18 @@ TextureImporter:
       name: street_17
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
-        width: 16
-        height: 16
+        x: 147
+        y: 93
+        width: 11
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7edacc16d0e7f5747a4a17d198730bb4
+      spriteID: fb4122fa28a5cc445bf207fe8f3fe39e
       internalID: 1362091340
       vertices: []
       indices: 
@@ -504,18 +532,18 @@ TextureImporter:
       name: street_18
       rect:
         serializedVersion: 2
-        x: 48
-        y: 224
-        width: 16
-        height: 16
+        x: 162
+        y: 112
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e11d6d0b0ebc5e4e9a8e8f968c3711d
+      spriteID: 24a46d0815e7a3746b9f72389aecb200
       internalID: -1521642943
       vertices: []
       indices: 
@@ -525,18 +553,18 @@ TextureImporter:
       name: street_19
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
-        width: 16
+        x: 115
+        y: 128
+        width: 43
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b985d12491a22f4e9dc3f27e605dc48
+      spriteID: 460c574ebfed88e42a98741800131246
       internalID: -1953166378
       vertices: []
       indices: 
@@ -546,18 +574,18 @@ TextureImporter:
       name: street_20
       rect:
         serializedVersion: 2
-        x: 80
-        y: 224
-        width: 16
-        height: 16
+        x: 83
+        y: 96
+        width: 10
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95b2ba789d8e11340b359aa7e472be5a
+      spriteID: 4560afa3aeb0a464c929cb369608e24d
       internalID: 440285602
       vertices: []
       indices: 
@@ -567,18 +595,18 @@ TextureImporter:
       name: street_21
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
-        width: 16
-        height: 16
+        x: 68
+        y: 96
+        width: 8
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7258db26ff8f0484093913f06aea57bc
+      spriteID: 837fc7d5a0f6dad4db1c91af62dcd45c
       internalID: -1203661966
       vertices: []
       indices: 
@@ -588,18 +616,18 @@ TextureImporter:
       name: street_22
       rect:
         serializedVersion: 2
-        x: 112
-        y: 224
-        width: 16
-        height: 16
+        x: 52
+        y: 96
+        width: 8
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba8415eb77104d045bc560320329dc2e
+      spriteID: 4ec5695a630ed8e43baaae50e37ac2d2
       internalID: -1891335207
       vertices: []
       indices: 
@@ -609,18 +637,18 @@ TextureImporter:
       name: street_23
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
-        width: 16
-        height: 16
+        x: 36
+        y: 96
+        width: 8
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f44e542bc006a46a9b4ccb8487c856
+      spriteID: 173ce0f006f84274e87531fd0eb5e27b
       internalID: 441588904
       vertices: []
       indices: 
@@ -630,18 +658,18 @@ TextureImporter:
       name: street_24
       rect:
         serializedVersion: 2
-        x: 144
-        y: 224
-        width: 16
-        height: 16
+        x: 17
+        y: 96
+        width: 13
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e70a9c030ce364244b75fd3def6c87bc
+      spriteID: 4df24611fd9b32748aff51400f9f1635
       internalID: -548594196
       vertices: []
       indices: 
@@ -651,18 +679,18 @@ TextureImporter:
       name: street_25
       rect:
         serializedVersion: 2
-        x: 160
-        y: 224
-        width: 16
-        height: 16
+        x: 2
+        y: 96
+        width: 13
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7129d8332070e974e800c29670de11a9
+      spriteID: 2dad3ba7901b61e41a5d94edea6c95da
       internalID: -225397416
       vertices: []
       indices: 
@@ -672,18 +700,22 @@ TextureImporter:
       name: street_26
       rect:
         serializedVersion: 2
-        x: 176
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 0
+        width: 32
+        height: 38
+      alignment: 9
+      pivot: {x: 0.12447977, y: 0.51479614}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: -19}
+        - {x: -16, y: -4}
+        - {x: -8, y: -4}
+        - {x: -8, y: -19}
       tessellationDetail: 0
       bones: []
-      spriteID: 149de074b2cd53345905fbea96f7181f
+      spriteID: 5e2992b93636abd46b1dc9e1010b9ea6
       internalID: -201088234
       vertices: []
       indices: 
@@ -693,18 +725,22 @@ TextureImporter:
       name: street_27
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 128
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.49429366, y: 0.40346718}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -5, y: -24}
+        - {x: -5, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -24}
       tessellationDetail: 0
       bones: []
-      spriteID: 76fdbb75cfe708843a6dfc5f86e7c1f7
+      spriteID: b2fc01723cf93164caaa23787b6629f6
       internalID: 1214068528
       vertices: []
       indices: 
@@ -714,18 +750,22 @@ TextureImporter:
       name: street_28
       rect:
         serializedVersion: 2
-        x: 208
-        y: 224
+        x: 32
+        y: 144
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5114124, y: 0.4365449}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -4, y: -16}
+        - {x: -4, y: -5}
+        - {x: 4, y: -5}
+        - {x: 4, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 73fac79730ccaea45a300e33f9ba8e7d
+      spriteID: cb110ad14d03e59499d295a791e20664
       internalID: 1198624694
       vertices: []
       indices: 
@@ -735,18 +775,18 @@ TextureImporter:
       name: street_29
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
-        width: 16
+        x: 86
+        y: 128
+        width: 20
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9561ca68d5a49142882855427ec18ec
+      spriteID: e1192bfb8e3f3ba419a11970583439d6
       internalID: -753398926
       vertices: []
       indices: 
@@ -756,18 +796,18 @@ TextureImporter:
       name: street_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 208
+        x: 112
+        y: 48
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 48
+      alignment: 9
+      pivot: {x: 0.515378, y: 0.37799802}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b54f0e5e1766e31479b83f6ad78fb228
+      spriteID: 4c18cfa770eb2c84c8edbca562984177
       internalID: -2129575952
       vertices: []
       indices: 
@@ -777,18 +817,18 @@ TextureImporter:
       name: street_31
       rect:
         serializedVersion: 2
-        x: 16
-        y: 208
+        x: 32
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 911c30d3345b88940adf8235235ed9a7
+      spriteID: b566a3431a8a85348ac6ad9313e26d32
       internalID: -1188647004
       vertices: []
       indices: 
@@ -798,18 +838,18 @@ TextureImporter:
       name: street_32
       rect:
         serializedVersion: 2
-        x: 32
-        y: 208
+        x: 48
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcba53074ca5a8a46ac232d46ee4cf3e
+      spriteID: 18e73c889965abc40a32108d0c4463ae
       internalID: 443531717
       vertices: []
       indices: 
@@ -819,18 +859,18 @@ TextureImporter:
       name: street_33
       rect:
         serializedVersion: 2
-        x: 48
-        y: 208
+        x: 64
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee0ff1c4147eeca46ad4d4e3231be913
+      spriteID: 50036445a4fc94c4e83e7f3bc120756c
       internalID: -833172133
       vertices: []
       indices: 
@@ -840,18 +880,18 @@ TextureImporter:
       name: street_34
       rect:
         serializedVersion: 2
-        x: 64
-        y: 208
+        x: 80
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4964d13e99f3f4a9a0d54cefa8e18b
+      spriteID: ca3164084dc5cad4a8bf1c2f8bbae21a
       internalID: 1382243878
       vertices: []
       indices: 
@@ -861,18 +901,18 @@ TextureImporter:
       name: street_35
       rect:
         serializedVersion: 2
-        x: 80
-        y: 208
+        x: 96
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 289e54e997da66c4987534fcc428dd46
+      spriteID: db966a123afeeab4ea6cb0183b007f14
       internalID: 1100578426
       vertices: []
       indices: 
@@ -882,18 +922,18 @@ TextureImporter:
       name: street_36
       rect:
         serializedVersion: 2
-        x: 96
-        y: 208
+        x: 112
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fdbf41ddf8cd8149b06d9876e0319bf
+      spriteID: 02223b851627fdf4d8aba41ca1c71020
       internalID: 1470674732
       vertices: []
       indices: 
@@ -903,18 +943,18 @@ TextureImporter:
       name: street_37
       rect:
         serializedVersion: 2
-        x: 112
-        y: 208
+        x: 128
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 866680992dad6d542b48158542b50518
+      spriteID: 53005bf67d2a9674c8fd5d6d8c398740
       internalID: -1934260028
       vertices: []
       indices: 
@@ -924,18 +964,18 @@ TextureImporter:
       name: street_38
       rect:
         serializedVersion: 2
-        x: 128
-        y: 208
+        x: 144
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1d9289741e6aae47b9e321876f589db
+      spriteID: 41ec77d22d04d47429beaa6c0406c167
       internalID: -604276478
       vertices: []
       indices: 
@@ -945,18 +985,18 @@ TextureImporter:
       name: street_39
       rect:
         serializedVersion: 2
-        x: 144
-        y: 208
+        x: 160
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067b0ec292fad5f49ad3699f508d4a57
+      spriteID: 5c65b840ba7084d459aad42c50c8e879
       internalID: 176907625
       vertices: []
       indices: 
@@ -966,18 +1006,18 @@ TextureImporter:
       name: street_40
       rect:
         serializedVersion: 2
-        x: 160
-        y: 208
+        x: 176
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7b730443c3b29d4099f8b7502387805
+      spriteID: 0643e908f41365d41a420faaecd99bca
       internalID: -1620524137
       vertices: []
       indices: 
@@ -987,18 +1027,18 @@ TextureImporter:
       name: street_41
       rect:
         serializedVersion: 2
-        x: 176
-        y: 208
+        x: 192
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35ef1a9014c21cc40b52ab3c509e6c25
+      spriteID: 439de7f4823c0f14eb012fab875cac42
       internalID: -485001101
       vertices: []
       indices: 
@@ -1008,18 +1048,18 @@ TextureImporter:
       name: street_42
       rect:
         serializedVersion: 2
-        x: 192
-        y: 208
+        x: 208
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 575736a0e3cdb134a92434898c06de7c
+      spriteID: f12fd3413b590034c90f7a541323349c
       internalID: 810212365
       vertices: []
       indices: 
@@ -1029,18 +1069,18 @@ TextureImporter:
       name: street_43
       rect:
         serializedVersion: 2
-        x: 208
-        y: 208
+        x: 224
+        y: 240
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e2df16de8115e418b7a908f9861114
+      spriteID: 5dd20a3a189096640a322b882c1190da
       internalID: -1517154644
       vertices: []
       indices: 
@@ -1050,18 +1090,18 @@ TextureImporter:
       name: street_44
       rect:
         serializedVersion: 2
-        x: 224
-        y: 208
+        x: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e8c8bf7eb1c5c43b4a718e45c46c9d
+      spriteID: dc1080f45802f6149ace2705cfaa954e
       internalID: -746535041
       vertices: []
       indices: 
@@ -1071,18 +1111,18 @@ TextureImporter:
       name: street_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 16
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dafa4c68645eac942b8b32881d7c5a31
+      spriteID: 27e735c0c366f6c46b5ea38f0161e194
       internalID: 951838060
       vertices: []
       indices: 
@@ -1092,18 +1132,18 @@ TextureImporter:
       name: street_46
       rect:
         serializedVersion: 2
-        x: 16
-        y: 192
+        x: 32
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1050333b4b1d6dc4c96e301cddf2aa53
+      spriteID: 1a11eaa7290109c40b3c15d9eb5591d9
       internalID: 73742584
       vertices: []
       indices: 
@@ -1113,18 +1153,18 @@ TextureImporter:
       name: street_47
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 48
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8a5b31151d08204fbbc56d2ec3d8b86
+      spriteID: 1dbba507eecb8f94a8bf8b4e426d5058
       internalID: -1539199658
       vertices: []
       indices: 
@@ -1134,18 +1174,18 @@ TextureImporter:
       name: street_48
       rect:
         serializedVersion: 2
-        x: 48
-        y: 192
+        x: 64
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 791b8a7df9119184c9b31a98760de624
+      spriteID: ec28ecb99815324498d247f4043ba23d
       internalID: 1785832255
       vertices: []
       indices: 
@@ -1155,18 +1195,18 @@ TextureImporter:
       name: street_49
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 80
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52bcb1ac7e711424b81a5c29e308a3ca
+      spriteID: 31df10c7a49ac9d40961ee586c556d8d
       internalID: -61812161
       vertices: []
       indices: 
@@ -1176,18 +1216,18 @@ TextureImporter:
       name: street_50
       rect:
         serializedVersion: 2
-        x: 80
-        y: 192
+        x: 96
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 915731929059aa145876ee4955ab49ac
+      spriteID: 2bae0b45b051a1b41a12a2d77278e2bd
       internalID: -858916912
       vertices: []
       indices: 
@@ -1197,18 +1237,18 @@ TextureImporter:
       name: street_51
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
+        x: 112
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa8e0025033dd0b44b21bcf5f204e244
+      spriteID: 1f2be8d04d1284f48bae2f3c2a7de889
       internalID: 351290473
       vertices: []
       indices: 
@@ -1218,18 +1258,18 @@ TextureImporter:
       name: street_52
       rect:
         serializedVersion: 2
-        x: 112
-        y: 192
+        x: 128
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d10ea758a87b762499543881e3654d64
+      spriteID: 21014b3193809dc45a490d8a0c9c7865
       internalID: 1461351752
       vertices: []
       indices: 
@@ -1239,18 +1279,18 @@ TextureImporter:
       name: street_53
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
+        x: 144
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f74d6fa5107c014c90e36196c83b8b5
+      spriteID: 32883070eb7257e43a5186b79cc0a874
       internalID: -1382288699
       vertices: []
       indices: 
@@ -1260,18 +1300,18 @@ TextureImporter:
       name: street_54
       rect:
         serializedVersion: 2
-        x: 144
-        y: 192
+        x: 160
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 177589f0ae245c64983e630fae860f17
+      spriteID: 1ea68305120691748828ac1293a871c2
       internalID: -2108250992
       vertices: []
       indices: 
@@ -1281,18 +1321,18 @@ TextureImporter:
       name: street_55
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
+        x: 176
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e072640fcafdad944b9b83ad06347a38
+      spriteID: ae0eb62bdfbe1e1498d0820b47e8f270
       internalID: 591400398
       vertices: []
       indices: 
@@ -1302,18 +1342,18 @@ TextureImporter:
       name: street_56
       rect:
         serializedVersion: 2
-        x: 176
-        y: 192
+        x: 192
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a94863be8c0e91f40abeea27b391207f
+      spriteID: 9e088db0edfd92248b7df3dfded45c56
       internalID: 386422129
       vertices: []
       indices: 
@@ -1323,18 +1363,18 @@ TextureImporter:
       name: street_57
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 208
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fffa438aa1daab143b6d7d9ea5297aca
+      spriteID: 63b4f0c8d5ae32741a8b085d35814a5c
       internalID: 535782260
       vertices: []
       indices: 
@@ -1344,18 +1384,18 @@ TextureImporter:
       name: street_58
       rect:
         serializedVersion: 2
-        x: 208
-        y: 192
+        x: 224
+        y: 224
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a0362932afcf77498e49cfc9b643941
+      spriteID: 316dc0964a210e34d9fafe1d3a77df06
       internalID: 1831937189
       vertices: []
       indices: 
@@ -1365,18 +1405,18 @@ TextureImporter:
       name: street_59
       rect:
         serializedVersion: 2
-        x: 224
-        y: 192
+        x: 0
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cadf0057c9f0924a826260860c201b6
+      spriteID: 340213a52e3bf0f408f02c597ac5a84e
       internalID: 1226336155
       vertices: []
       indices: 
@@ -1386,18 +1426,18 @@ TextureImporter:
       name: street_60
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
+        x: 16
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b415e8c277aa2c94fad906eed5b2b867
+      spriteID: 49237e89c0ad143489aa5d09fd6ccda5
       internalID: 368954326
       vertices: []
       indices: 
@@ -1407,18 +1447,18 @@ TextureImporter:
       name: street_61
       rect:
         serializedVersion: 2
-        x: 16
-        y: 176
+        x: 32
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc0dc2594bb464489e84fc5afce56cc
+      spriteID: f7a9b4853e5438a44abd6218dedc7090
       internalID: -574533765
       vertices: []
       indices: 
@@ -1428,18 +1468,18 @@ TextureImporter:
       name: street_62
       rect:
         serializedVersion: 2
-        x: 32
-        y: 176
+        x: 48
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef482c8ad10e4e419696c2e74bb49c2
+      spriteID: 3634cc9674545be4e955925c9eb53d23
       internalID: -1243903308
       vertices: []
       indices: 
@@ -1449,18 +1489,18 @@ TextureImporter:
       name: street_63
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
+        x: 64
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64bc04e22b2dc344aa260616d182d582
+      spriteID: 1fc88e3eea4e5d94ea14dfa3538d7f96
       internalID: 780843379
       vertices: []
       indices: 
@@ -1470,18 +1510,18 @@ TextureImporter:
       name: street_64
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
+        x: 80
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 859c644d9738c704d9e0ec9aa4259c62
+      spriteID: 83556dd4c4bf4274d91fc1c551de7221
       internalID: -1213366374
       vertices: []
       indices: 
@@ -1491,18 +1531,18 @@ TextureImporter:
       name: street_65
       rect:
         serializedVersion: 2
-        x: 80
-        y: 176
+        x: 96
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dcf736b5eb251a49bdd8f1f3c2e2b73
+      spriteID: ed808fb17dd480d45a216d40923170af
       internalID: -47443986
       vertices: []
       indices: 
@@ -1512,18 +1552,18 @@ TextureImporter:
       name: street_66
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
+        x: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3150790ba08e3e548a5fde517f7e780c
+      spriteID: 23417984574642e419b73efed5de0911
       internalID: 205870794
       vertices: []
       indices: 
@@ -1533,18 +1573,18 @@ TextureImporter:
       name: street_67
       rect:
         serializedVersion: 2
-        x: 112
-        y: 176
+        x: 128
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7395bb8fc0dce224085c83479a57a006
+      spriteID: d2139854768c1144fb6d4aa49c05fb3c
       internalID: -1706890762
       vertices: []
       indices: 
@@ -1554,18 +1594,18 @@ TextureImporter:
       name: street_68
       rect:
         serializedVersion: 2
-        x: 128
-        y: 176
+        x: 144
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5314bb73a503264482de13d7923456e
+      spriteID: d26ec7b61dac68346bc101df7fd36e9e
       internalID: -945255757
       vertices: []
       indices: 
@@ -1575,18 +1615,18 @@ TextureImporter:
       name: street_69
       rect:
         serializedVersion: 2
-        x: 144
-        y: 176
+        x: 160
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 378dddaa7f9e48e479624b8d33994b80
+      spriteID: 2fc0548d73e78fa4c9b04db7d9d7a732
       internalID: -1538795016
       vertices: []
       indices: 
@@ -1596,18 +1636,18 @@ TextureImporter:
       name: street_70
       rect:
         serializedVersion: 2
-        x: 160
-        y: 176
+        x: 176
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b362512e33bbafb4fbd7b39f647634fa
+      spriteID: 457947115896cdd4d87d70db1c92fb8d
       internalID: 178263233
       vertices: []
       indices: 
@@ -1617,18 +1657,18 @@ TextureImporter:
       name: street_71
       rect:
         serializedVersion: 2
-        x: 176
-        y: 176
+        x: 192
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faabcd730c9d7524d97668cdeaf8a576
+      spriteID: c41115d3e9f31744fa8302e60e41b46b
       internalID: 888124
       vertices: []
       indices: 
@@ -1638,18 +1678,18 @@ TextureImporter:
       name: street_72
       rect:
         serializedVersion: 2
-        x: 192
-        y: 176
+        x: 208
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a199541790d9e84b8fdbef87ccfaebe
+      spriteID: 8bec23ab78e46ad438936512b4117d11
       internalID: 1909454471
       vertices: []
       indices: 
@@ -1659,18 +1699,18 @@ TextureImporter:
       name: street_73
       rect:
         serializedVersion: 2
-        x: 208
-        y: 176
+        x: 224
+        y: 208
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 874e0c115830a82498bee00b1dea76d0
+      spriteID: 645a46976ecb63748a633132b39ffc66
       internalID: 750031329
       vertices: []
       indices: 
@@ -1680,18 +1720,18 @@ TextureImporter:
       name: street_74
       rect:
         serializedVersion: 2
-        x: 224
-        y: 176
+        x: 0
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b95b3b46878d9040b75acb2a3dbfbe3
+      spriteID: 714f74cae5e831f438ae3af0f694d893
       internalID: -1203052877
       vertices: []
       indices: 
@@ -1701,18 +1741,18 @@ TextureImporter:
       name: street_75
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 16
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72e27da8d650d8d44914df4932b4dbfa
+      spriteID: 9aaff2a413dabf744b8d8d5ff3129351
       internalID: -212977375
       vertices: []
       indices: 
@@ -1722,18 +1762,18 @@ TextureImporter:
       name: street_76
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
+        x: 32
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee2cc344ce925694eb22fdaccf91b7d4
+      spriteID: c3385107242552a49b7b48dde92b7dbb
       internalID: 1792113760
       vertices: []
       indices: 
@@ -1743,18 +1783,18 @@ TextureImporter:
       name: street_77
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
+        x: 48
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1c456dcf56a854c849fd4796b31a6d
+      spriteID: f737bc86f3355e940940905f79cf425a
       internalID: -1210237905
       vertices: []
       indices: 
@@ -1764,18 +1804,18 @@ TextureImporter:
       name: street_78
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
+        x: 64
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93207785cefef4f4e8348fdbb0302fb7
+      spriteID: cb3208f37c095e94abc3310498c00637
       internalID: 588134452
       vertices: []
       indices: 
@@ -1785,18 +1825,18 @@ TextureImporter:
       name: street_79
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
+        x: 80
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d502adaccc12f47a5238f1e8bbe483
+      spriteID: 2593e99fd55858840b538f7fed8db31a
       internalID: 370280443
       vertices: []
       indices: 
@@ -1806,18 +1846,18 @@ TextureImporter:
       name: street_80
       rect:
         serializedVersion: 2
-        x: 80
-        y: 160
+        x: 96
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3375f221d5ceb948b80fda80d1a9000
+      spriteID: 0d12b8fa95164b143800c4b6cf408562
       internalID: 1036509066
       vertices: []
       indices: 
@@ -1827,18 +1867,18 @@ TextureImporter:
       name: street_81
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
+        x: 112
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eec73c01cdc6e8f47a414a312703a8e1
+      spriteID: 70d800c6273c2cd4db13a9dc3b4947fd
       internalID: 261655891
       vertices: []
       indices: 
@@ -1848,18 +1888,18 @@ TextureImporter:
       name: street_82
       rect:
         serializedVersion: 2
-        x: 112
-        y: 160
+        x: 128
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751d72dd4411bad41ac7644fd0dcebe3
+      spriteID: 0984345d4f80c2a449c8fc8f19562b55
       internalID: 1011744983
       vertices: []
       indices: 
@@ -1869,18 +1909,18 @@ TextureImporter:
       name: street_83
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
+        x: 144
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08a5a5d3abafc4c4e9c370be5d6cd322
+      spriteID: 7437b2f55c76ca94e91313fe3b70523a
       internalID: -101200727
       vertices: []
       indices: 
@@ -1890,18 +1930,18 @@ TextureImporter:
       name: street_84
       rect:
         serializedVersion: 2
-        x: 144
-        y: 160
+        x: 160
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af6f1862e199ebe42a22bdd073c7fa8b
+      spriteID: 45c9d55b6a4400d4799297ad7ff96bba
       internalID: -888409423
       vertices: []
       indices: 
@@ -1911,18 +1951,18 @@ TextureImporter:
       name: street_85
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
+        x: 176
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6522813940443b458847970f5b079ee
+      spriteID: ad0c631f8ff43d141a78ba7da8ca5f24
       internalID: -568710533
       vertices: []
       indices: 
@@ -1932,18 +1972,18 @@ TextureImporter:
       name: street_86
       rect:
         serializedVersion: 2
-        x: 176
-        y: 160
+        x: 192
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 912cfa5e2a0456147b24a6061d4edc54
+      spriteID: f2f6c1177003da647b680a5ce42148c0
       internalID: 2027188045
       vertices: []
       indices: 
@@ -1953,18 +1993,18 @@ TextureImporter:
       name: street_87
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
+        x: 208
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 115af10dc0e7e984e95d338758815dc2
+      spriteID: 516fd9d332c96a54a8a249cbefb3971e
       internalID: 603974434
       vertices: []
       indices: 
@@ -1974,18 +2014,18 @@ TextureImporter:
       name: street_88
       rect:
         serializedVersion: 2
-        x: 208
-        y: 160
+        x: 224
+        y: 192
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59e9bb8bec7172644bfdc06978125fb1
+      spriteID: 93342e7a01510aa41a53cf619b60ef83
       internalID: -137608644
       vertices: []
       indices: 
@@ -1995,18 +2035,18 @@ TextureImporter:
       name: street_89
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
+        x: 0
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8629058a781ba954eb2491841d7435d6
+      spriteID: 2514608790e402248a7fe1fb59d2c3a1
       internalID: 558540232
       vertices: []
       indices: 
@@ -2016,18 +2056,18 @@ TextureImporter:
       name: street_90
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
+        x: 16
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b46c39b1e0d227546aee9cdc77714c0d
+      spriteID: 9bc2e6f99bc204e41be137c668eddf0c
       internalID: 1223830936
       vertices: []
       indices: 
@@ -2037,18 +2077,18 @@ TextureImporter:
       name: street_91
       rect:
         serializedVersion: 2
-        x: 16
-        y: 144
+        x: 32
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4daafa8c80ab46d45899f513a1bb1b85
+      spriteID: 991f03ef34ac1fe459c08540c9b178f7
       internalID: -2073093473
       vertices: []
       indices: 
@@ -2058,18 +2098,18 @@ TextureImporter:
       name: street_92
       rect:
         serializedVersion: 2
-        x: 32
-        y: 144
+        x: 48
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c7907f55d097e7418bd4eb4283ab819
+      spriteID: e1f44913cf89fd54bba28179ba8f5f93
       internalID: -520423558
       vertices: []
       indices: 
@@ -2079,18 +2119,18 @@ TextureImporter:
       name: street_93
       rect:
         serializedVersion: 2
-        x: 48
-        y: 144
+        x: 64
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163b640c8c48b5148b04faa5551122f5
+      spriteID: 1b5b2a31462d55d46a2153dca48ab498
       internalID: 737271632
       vertices: []
       indices: 
@@ -2100,18 +2140,18 @@ TextureImporter:
       name: street_94
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
+        x: 80
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07fc73aa897da694d8bfad0007bc6005
+      spriteID: a57cbc1c60b62a24ab37fadbc52021ae
       internalID: 875045681
       vertices: []
       indices: 
@@ -2121,18 +2161,18 @@ TextureImporter:
       name: street_95
       rect:
         serializedVersion: 2
-        x: 80
-        y: 144
+        x: 96
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34709b197399783439109202ca1a5be7
+      spriteID: 3f5018b62769cb444bdc00c1a869b17a
       internalID: 91014411
       vertices: []
       indices: 
@@ -2142,18 +2182,18 @@ TextureImporter:
       name: street_96
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
+        x: 112
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e02801ff37b39147ae1d9156ccf09c0
+      spriteID: 5666882a9d304a240b38796778686150
       internalID: -1913234520
       vertices: []
       indices: 
@@ -2163,18 +2203,18 @@ TextureImporter:
       name: street_97
       rect:
         serializedVersion: 2
-        x: 112
-        y: 144
+        x: 128
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 973c713918494cc48b3f2362e001f70a
+      spriteID: 87f402124ade18a44a7fbdd1c99ac8d6
       internalID: 1329948018
       vertices: []
       indices: 
@@ -2184,18 +2224,18 @@ TextureImporter:
       name: street_98
       rect:
         serializedVersion: 2
-        x: 128
-        y: 144
+        x: 144
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e46ffefd9534842a4e7a45d8d2f4dc
+      spriteID: 8d771ff5bb80c334380f2e4c4eb1d3c8
       internalID: 408653726
       vertices: []
       indices: 
@@ -2205,18 +2245,18 @@ TextureImporter:
       name: street_99
       rect:
         serializedVersion: 2
-        x: 144
-        y: 144
+        x: 160
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f1175501dc309348baa3054f534dfc6
+      spriteID: bf7b8e45848d1db4aaa24ff86262f0df
       internalID: -866564722
       vertices: []
       indices: 
@@ -2226,18 +2266,18 @@ TextureImporter:
       name: street_100
       rect:
         serializedVersion: 2
-        x: 160
-        y: 144
+        x: 176
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a7bd800ab230a44cb51dd82dffd7ea3
+      spriteID: 8abf94a783680ff44a65f44ea87b7927
       internalID: 2057188675
       vertices: []
       indices: 
@@ -2247,18 +2287,18 @@ TextureImporter:
       name: street_101
       rect:
         serializedVersion: 2
-        x: 176
-        y: 144
+        x: 192
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33444ef499104a447ae556ee5a2f5923
+      spriteID: f8115a115146d604c9ce649a06a0d7bd
       internalID: -1144628616
       vertices: []
       indices: 
@@ -2268,18 +2308,18 @@ TextureImporter:
       name: street_102
       rect:
         serializedVersion: 2
-        x: 192
-        y: 144
+        x: 208
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9805e86cde82b5b4f8dfc660d60d34a0
+      spriteID: 6b2f62948cb0bfb4ca251b3ea1c57124
       internalID: -498788570
       vertices: []
       indices: 
@@ -2289,18 +2329,18 @@ TextureImporter:
       name: street_103
       rect:
         serializedVersion: 2
-        x: 208
-        y: 144
+        x: 224
+        y: 176
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60872deca738ba249ac3fe88785e257e
+      spriteID: 36621fbee5687c64bb0472719318cc70
       internalID: -1725581394
       vertices: []
       indices: 
@@ -2310,18 +2350,18 @@ TextureImporter:
       name: street_104
       rect:
         serializedVersion: 2
-        x: 224
-        y: 144
+        x: 48
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360e69d5016a0224dbb6c926c6671710
+      spriteID: 242cdc24620d149429196e56c24faadf
       internalID: -2068434702
       vertices: []
       indices: 
@@ -2331,18 +2371,18 @@ TextureImporter:
       name: street_105
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 64
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2507f7e177a2c6419151298b446acf3
+      spriteID: 31fa0b0d86b30774ca1e53233c41edc0
       internalID: -224164695
       vertices: []
       indices: 
@@ -2352,18 +2392,18 @@ TextureImporter:
       name: street_106
       rect:
         serializedVersion: 2
-        x: 16
-        y: 128
+        x: 80
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dafabd2654068f04a9a4457d751381fd
+      spriteID: de01c633224a9aa43be6657c8f68e3f4
       internalID: -1198117607
       vertices: []
       indices: 
@@ -2373,18 +2413,18 @@ TextureImporter:
       name: street_107
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 96
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b3e6b268fa0f6044b9288b6f00676df
+      spriteID: f19fdd570d8cec94ab3864add11fecdf
       internalID: 934789259
       vertices: []
       indices: 
@@ -2394,18 +2434,18 @@ TextureImporter:
       name: street_108
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
+        x: 112
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b59cbad0171844b49a4f3896618bc2ec
+      spriteID: 1f519d849515d104c97676cf85ce6153
       internalID: -1518847323
       vertices: []
       indices: 
@@ -2415,18 +2455,18 @@ TextureImporter:
       name: street_109
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 128
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d00adb3a71ca8f4408a1fbcfd1273d98
+      spriteID: f0ca189e8dd3e684c8c03e6002fcad07
       internalID: 960063859
       vertices: []
       indices: 
@@ -2436,18 +2476,18 @@ TextureImporter:
       name: street_110
       rect:
         serializedVersion: 2
-        x: 80
-        y: 128
+        x: 144
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38832ee9463180142bb5d5976835a964
+      spriteID: a05c57944b22ced42a976d07da0feffb
       internalID: 1333283927
       vertices: []
       indices: 
@@ -2457,18 +2497,18 @@ TextureImporter:
       name: street_111
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
+        x: 160
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed4755d961852548aa36c313738137c
+      spriteID: 0e8151e3ce801b443802f2a8ee0582dc
       internalID: -660999580
       vertices: []
       indices: 
@@ -2478,18 +2518,18 @@ TextureImporter:
       name: street_112
       rect:
         serializedVersion: 2
-        x: 112
-        y: 128
+        x: 176
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b70b06702404a49b77428b8401cf0c
+      spriteID: cef1b28310113db42b2f9765b9f24783
       internalID: 2003469879
       vertices: []
       indices: 
@@ -2499,18 +2539,18 @@ TextureImporter:
       name: street_113
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 192
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af48cae6542d26748a7027c5de29584b
+      spriteID: bc0c09cd38d368f4fa11bf3fa6f872b7
       internalID: 1431069994
       vertices: []
       indices: 
@@ -2520,18 +2560,18 @@ TextureImporter:
       name: street_114
       rect:
         serializedVersion: 2
-        x: 144
-        y: 128
+        x: 208
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25b54eca39336bb409d00902156b45e4
+      spriteID: 0170be0ff924c5040a6490d8b928ae00
       internalID: -1082547936
       vertices: []
       indices: 
@@ -2541,18 +2581,18 @@ TextureImporter:
       name: street_115
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
+        x: 224
+        y: 160
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8e987ccb40a1324996191881fc18e21
+      spriteID: 94a5eb9069dedef429bbc511268c9a3b
       internalID: 10391729
       vertices: []
       indices: 
@@ -2562,18 +2602,18 @@ TextureImporter:
       name: street_116
       rect:
         serializedVersion: 2
-        x: 176
-        y: 128
+        x: 48
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f82f662787dfee4eb732ac9897372f2
+      spriteID: 85bebca10f5c8a5479b9b9fd3eae9b85
       internalID: 1402239960
       vertices: []
       indices: 
@@ -2583,18 +2623,18 @@ TextureImporter:
       name: street_117
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
+        x: 64
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e312d803c894a440a48dc154d08613d
+      spriteID: d94512d985a9dea48b8a41357c788cc0
       internalID: 1367316236
       vertices: []
       indices: 
@@ -2604,18 +2644,18 @@ TextureImporter:
       name: street_118
       rect:
         serializedVersion: 2
-        x: 208
-        y: 128
+        x: 80
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2e62eac60e09324ab6c4cd13ded1573
+      spriteID: decf98df037ff1a4a97b074098b06eff
       internalID: -128795594
       vertices: []
       indices: 
@@ -2625,18 +2665,18 @@ TextureImporter:
       name: street_119
       rect:
         serializedVersion: 2
-        x: 224
-        y: 128
+        x: 96
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 317f6846f53560d4d9ce8dd877bf077f
+      spriteID: 0b1f62e588ab03346bb96693a302dbdf
       internalID: 219987814
       vertices: []
       indices: 
@@ -2646,18 +2686,18 @@ TextureImporter:
       name: street_120
       rect:
         serializedVersion: 2
-        x: 0
-        y: 112
+        x: 112
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5186cf7c2e07e24ba73827f14a3f0bf
+      spriteID: 7747396a1da45a74983ee2f6c928324b
       internalID: 777841465
       vertices: []
       indices: 
@@ -2667,18 +2707,18 @@ TextureImporter:
       name: street_121
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
+        x: 128
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51558d95583ebab4bbe4541e656c8655
+      spriteID: ea2f60c9005a903479850c3464f4d6ac
       internalID: -659782299
       vertices: []
       indices: 
@@ -2688,18 +2728,18 @@ TextureImporter:
       name: street_122
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
+        x: 144
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc1f8201230931e448fdd7a5497939c4
+      spriteID: d2223684938332a45888cf4df17d1b3e
       internalID: -846812034
       vertices: []
       indices: 
@@ -2709,18 +2749,18 @@ TextureImporter:
       name: street_123
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
+        x: 160
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44dd159af4427ad4ebf7243fbb7fdd97
+      spriteID: f39d1d3355ebf314996a3f0c43d20531
       internalID: -2110062858
       vertices: []
       indices: 
@@ -2730,18 +2770,18 @@ TextureImporter:
       name: street_124
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
+        x: 176
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73f563b41c10ee645937a7c081a480e9
+      spriteID: c1597e1585fd7914ab7e9bd8855fa371
       internalID: 1759242291
       vertices: []
       indices: 
@@ -2751,18 +2791,18 @@ TextureImporter:
       name: street_125
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
+        x: 192
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10c4ebe1e2f96ee4183879da742a7c8a
+      spriteID: 2587f035a4bc6d84f88dd0bed73459a9
       internalID: -353230903
       vertices: []
       indices: 
@@ -2772,18 +2812,18 @@ TextureImporter:
       name: street_126
       rect:
         serializedVersion: 2
-        x: 96
-        y: 112
+        x: 208
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6641cd5d5a837f24790331e8c3ce42d3
+      spriteID: 47709ca16c403d14c937012e1c6e6229
       internalID: 1561429508
       vertices: []
       indices: 
@@ -2793,18 +2833,18 @@ TextureImporter:
       name: street_127
       rect:
         serializedVersion: 2
-        x: 112
-        y: 112
+        x: 224
+        y: 144
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 591efd5f964a7294bbb8f451cc2f8cbe
+      spriteID: 8128ea8d9af2f2f48af64b0ff10780f8
       internalID: -1196221685
       vertices: []
       indices: 
@@ -2814,18 +2854,18 @@ TextureImporter:
       name: street_128
       rect:
         serializedVersion: 2
-        x: 128
-        y: 112
+        x: 32
+        y: 128
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 871b2f2dd66395544885f8e1151070b7
+      spriteID: 04650f0c4326e3348a411b96919d2a23
       internalID: -1995846496
       vertices: []
       indices: 
@@ -2835,18 +2875,18 @@ TextureImporter:
       name: street_129
       rect:
         serializedVersion: 2
-        x: 144
-        y: 112
+        x: 48
+        y: 128
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed162abb97e9b948a8927a404c98691
+      spriteID: a1c4039d452a43f44bb4a9b5017f874e
       internalID: -2050784407
       vertices: []
       indices: 
@@ -2856,18 +2896,18 @@ TextureImporter:
       name: street_130
       rect:
         serializedVersion: 2
-        x: 160
-        y: 112
+        x: 64
+        y: 128
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eccdd3f17242c641b2936804dabc941
+      spriteID: cda227777012b0f448344fc133a1bddb
       internalID: -905496595
       vertices: []
       indices: 
@@ -2878,17 +2918,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 176
-        y: 112
+        y: 128
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71677b356c4f6c0449468c0548be74cd
+      spriteID: c73d59765a5c71b42ac922efa163e6d8
       internalID: 1756631805
       vertices: []
       indices: 
@@ -2899,17 +2939,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 112
+        y: 128
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f1a6924b8114540adfc656773edace
+      spriteID: d089e11c725b7aa47ba8db6e83ff8167
       internalID: 1851367567
       vertices: []
       indices: 
@@ -2920,17 +2960,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 112
+        y: 128
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb202f98666bb764eb8592a742e4c78c
+      spriteID: 9905b4d8dd718794cab9b253e3a346e0
       internalID: 903722267
       vertices: []
       indices: 
@@ -2941,17 +2981,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 112
+        y: 128
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71a3415a09571f541baf543b766c211c
+      spriteID: 8d682cb7cf04686439d39d39bcd587dd
       internalID: 743918097
       vertices: []
       indices: 
@@ -2961,18 +3001,18 @@ TextureImporter:
       name: street_135
       rect:
         serializedVersion: 2
-        x: 240
-        y: 112
+        x: 160
+        y: 96
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 701a273b8d9419847a6b0aa05d46dac6
+      spriteID: 6f72499ee78532a4c800c42227ea257d
       internalID: 1286129877
       vertices: []
       indices: 
@@ -2982,18 +3022,18 @@ TextureImporter:
       name: street_136
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 160
+        y: 80
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebde251b70d3b4b48bfa3c35573beeee
+      spriteID: ae82f7549faddc648b2d4e3914d2b4e5
       internalID: 1364053988
       vertices: []
       indices: 
@@ -3003,18 +3043,18 @@ TextureImporter:
       name: street_137
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
+        x: 128
+        y: 64
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d009e16e8994a0245abedd57c12bba9e
+      spriteID: 18d28603e8dc292478337dbc51dec241
       internalID: 818154724
       vertices: []
       indices: 
@@ -3024,18 +3064,18 @@ TextureImporter:
       name: street_138
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 144
+        y: 64
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8f2179ca3740614a8ce96ab4ffc3a72
+      spriteID: 8ac73ace76a863f4e81543b008e2e23e
       internalID: 1276779403
       vertices: []
       indices: 
@@ -3045,18 +3085,18 @@ TextureImporter:
       name: street_139
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
+        x: 160
+        y: 64
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b221853eee86045ae49af3ce02fac3
+      spriteID: 173c9a0cc1471dc46bca3097daab3f20
       internalID: 44076411
       vertices: []
       indices: 
@@ -3066,18 +3106,18 @@ TextureImporter:
       name: street_140
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 128
+        y: 48
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f56686d1e08b88a4c9f01718e5094260
+      spriteID: eb49aef3708e72f4a9da2ceddd22a550
       internalID: -1366990401
       vertices: []
       indices: 
@@ -3087,18 +3127,18 @@ TextureImporter:
       name: street_141
       rect:
         serializedVersion: 2
-        x: 80
-        y: 96
+        x: 144
+        y: 48
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72159cec1cf9da747884fefdf7f27c37
+      spriteID: a679a682cb5330e4ca329f911077d87c
       internalID: 416155278
       vertices: []
       indices: 
@@ -3108,18 +3148,18 @@ TextureImporter:
       name: street_142
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 160
+        y: 48
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ffa05e8ec17cc14fb55aa8bae0ed167
+      spriteID: e7f65f79389bebe4d9d6278a5f8699fc
       internalID: -345176091
       vertices: []
       indices: 
@@ -3129,18 +3169,18 @@ TextureImporter:
       name: street_143
       rect:
         serializedVersion: 2
-        x: 112
-        y: 96
+        x: 128
+        y: 32
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b894920bf59cff44198b11928174d9fe
+      spriteID: 7c680e904484d364e9405b45295257c7
       internalID: -541030507
       vertices: []
       indices: 
@@ -3150,18 +3190,18 @@ TextureImporter:
       name: street_144
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
+        x: 144
+        y: 32
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570398402435b524e880234f29d3608a
+      spriteID: 80073622ae0c07b42832d41a065e3424
       internalID: -80096297
       vertices: []
       indices: 
@@ -3171,1493 +3211,19 @@ TextureImporter:
       name: street_145
       rect:
         serializedVersion: 2
-        x: 144
-        y: 96
+        x: 160
+        y: 32
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f716bac618acdd46b942f2de603dd38
+      spriteID: 5324e4f06f00f77408fd8fe217755a8e
       internalID: 2077745544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_146
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d87a5eb7e3990cd4d95d2799e9428a30
-      internalID: 614380960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_147
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b190e5bd04ecaaf42bc70cfac67ec14c
-      internalID: 407110209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_148
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19c1697935795aa4dafb66c007863e64
-      internalID: -2022798289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_149
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ea588f24cd02a54c883f105be924cbd
-      internalID: -1991235781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_150
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3be5964a89d84448bf14776e63496ef
-      internalID: -1416879282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_151
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bcd2ea86c4892f48a23085332d84e1b
-      internalID: -2115191096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_152
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b232faabca7880b4fa961f632707fb8f
-      internalID: -246336742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_153
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e3303ea075a2f54a9beceb66db96c9f
-      internalID: -141833775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_154
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e5990860164f334c9305503c9105cae
-      internalID: -721038307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_155
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 617b6d304b66025408a3b06cb3ab2954
-      internalID: -17151359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_156
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f788ab3024adb4a4c9d405d60c367daa
-      internalID: -1285491155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_157
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59d917f1e7d60ca4887b72fea656abfa
-      internalID: -1867684283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_158
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 906f74e1e4c99b54d985bfcb4cac1ec8
-      internalID: 392810814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_159
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03cfd26bcb789ad44919da31a8a2f945
-      internalID: 887698594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_160
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 654e8519a3125d946b97ef36103b87c2
-      internalID: -866333125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_161
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f24f14a2621920348b70c68b5854b706
-      internalID: -845085472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_162
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3534f96a9a32c954db65fffda794c382
-      internalID: 388363781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_163
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad3d5acce0b15c043a7d3ed1e9702238
-      internalID: 304258205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_164
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 974463588ea7cc84687a1f87e4ae4b63
-      internalID: -948043795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_165
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c81809e7ee5e8c445978c8bae633a71a
-      internalID: -1791316547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_166
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a05cbef5d87cbee4b8f09c4f1c20d748
-      internalID: 1918197225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_167
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5cae8a273fb17e843b39c797a9aec6fd
-      internalID: -786653121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_168
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 881e21ee66bcb5443b2d68589e8d6134
-      internalID: -929275736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_169
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69247ac33fcf48946b240ce4909d928d
-      internalID: -510687174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_170
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a05e3e5ddf349448a6c379d5ad29621
-      internalID: -272449493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_171
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff30638e647012245aa553ed9520b831
-      internalID: -1202427683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_172
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b15294758d88ce346b1e818c36a08a47
-      internalID: -1478811542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_173
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a48c5bd878b5a449a54c92ad191ed5a
-      internalID: 773016545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_174
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6f25325b5d656047b433ff47d8681cb
-      internalID: 15388177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_175
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f12287056c87688438d882c38a7d6316
-      internalID: -1112244990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_176
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c299f7040927394cbe2397ae131ffbc
-      internalID: 168944286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_177
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -4, y: -24}
-        - {x: -4, y: -12}
-        - {x: 4, y: -12}
-        - {x: 4, y: -24}
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc86d49cdfdd0434c8129951486ea659
-      internalID: -487530327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_178
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca94477dc8a5d884a83b1260c28643e2
-      internalID: -1544580194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_179
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7c7049f820100a44980ce9c6b6050e1
-      internalID: 713845539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_180
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea144c084340c624d83e54d72e82ba6f
-      internalID: 1473884905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_181
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62aff4eb5793c8f4ebafd402d04c8a03
-      internalID: -242507808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_182
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a778443ca57a6864899d92b8087a3789
-      internalID: -384709616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_183
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 305515791e8f02748abe085d07187fdc
-      internalID: 1452343710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_184
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d19d22c9eb9c5a446a52debd0b25fa69
-      internalID: 8568489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_185
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25f5fb7e0f7398d43afc195243f7b6aa
-      internalID: -1236672183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_186
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 663258e8e38fc8a44b615f07332d73de
-      internalID: 292004903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_187
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09fac7b08a8d4ec459418c6c4eb17140
-      internalID: 654031309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_188
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00a7a0fbd3b27a7469cc416a2c98e172
-      internalID: 106902401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_189
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88ffcab81a7e53b49b8b37c0a8f0a5b4
-      internalID: -2109513834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_190
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f2ebf03420cf5e419575b011ffdd559
-      internalID: -1311517944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_191
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42dfbd22b9accdd4ea327fefb5025dc8
-      internalID: 109054098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_193
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1d82365e1e5aa94d8b935de3a4eaf56
-      internalID: 699000760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_194
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2e46427f1b7dc54a82a33eca8f2aec7
-      internalID: -1604787708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_195
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db6457bd531a6a941a77650905560c51
-      internalID: -901472983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_196
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e75136b8fecd6924db129ce4b2888ed1
-      internalID: 2056005379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_197
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f947097059676f24b8de35956fb739aa
-      internalID: 1435058807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_198
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c9198c9084642a45851238c448ab3a9
-      internalID: 519765718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_199
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61c970efc4ee96540983d20a89cd3a70
-      internalID: -173897750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_200
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97560272cd485d848b1c6b3593b15ef0
-      internalID: 1891167680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_201
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d68ee1ea7e4d7b944a5d68992598be45
-      internalID: -105257384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_202
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1225596b536921408c6c22c4d4c98e7
-      internalID: 43857008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_203
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 332d7ba8b88c2c543a054abb30c60c75
-      internalID: -1416541056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_204
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea9641c5a338ede4ebd1f67cc56be42e
-      internalID: -1851607290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_205
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdd589f3489f8fe46bd15db70a6db82b
-      internalID: 75967349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_207
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62b5f1b76d4942549abf14178ee37ec2
-      internalID: -1340039723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_208
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7066c3fd50a8bfc44b9791fc18e7176e
-      internalID: 741025995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_209
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53bb300c496adac49baa6f65729c588e
-      internalID: 1534550367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_210
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d143b0ff8f478542b9bb19a85753f05
-      internalID: 87179631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_211
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32181d2323928ae4892e3cdb0cdbf258
-      internalID: -985012331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_212
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 754a3ba520db18d4ab64bd11925e1784
-      internalID: 680429962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_213
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87d221ca235c3ce40aee7c4baca7dbd5
-      internalID: -832926640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_214
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45af806dcc29c3841be2f3d8a7c846c6
-      internalID: 194030719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_215
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e6a44a555aa12e43beb43a71671ac5f
-      internalID: 1968870395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_192
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c0a180423dca7943a3e06cfe3cdbe12
-      internalID: 1616899354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: street_206
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2de794ae8e0bc2d48b100bfffec7e4c4
-      internalID: -1467186704
       vertices: []
       indices: 
       edges: []
@@ -4676,219 +3242,149 @@ TextureImporter:
       street_0: -1671140240
       street_1: -338817201
       street_10: -639414899
-      street_100: 2057188675
-      street_101: -1144628616
-      street_102: -498788570
-      street_103: -1725581394
-      street_104: -2068434702
-      street_105: -224164695
-      street_106: -1198117607
-      street_107: 934789259
-      street_108: -1518847323
-      street_109: 960063859
+      street_100: -866564722
+      street_101: 2057188675
+      street_102: -1144628616
+      street_103: -498788570
+      street_104: -1725581394
+      street_105: -2068434702
+      street_106: -224164695
+      street_107: -1198117607
+      street_108: 934789259
+      street_109: -1518847323
       street_11: -1871061837
-      street_110: 1333283927
-      street_111: -660999580
-      street_112: 2003469879
-      street_113: 1431069994
-      street_114: -1082547936
-      street_115: 10391729
-      street_116: 1402239960
-      street_117: 1367316236
-      street_118: -128795594
-      street_119: 219987814
+      street_110: 960063859
+      street_111: 1333283927
+      street_112: -660999580
+      street_113: 2003469879
+      street_114: 1431069994
+      street_115: -1082547936
+      street_116: 10391729
+      street_117: 1402239960
+      street_118: 1367316236
+      street_119: -128795594
       street_12: 283390548
-      street_120: 777841465
-      street_121: -659782299
-      street_122: -846812034
-      street_123: -2110062858
-      street_124: 1759242291
-      street_125: -353230903
-      street_126: 1561429508
-      street_127: -1196221685
-      street_128: -1995846496
-      street_129: -2050784407
+      street_120: 219987814
+      street_121: 777841465
+      street_122: -659782299
+      street_123: -846812034
+      street_124: -2110062858
+      street_125: 1759242291
+      street_126: -353230903
+      street_127: 1561429508
+      street_128: -1196221685
+      street_129: -1995846496
       street_13: -986564578
-      street_130: -905496595
-      street_131: 1756631805
-      street_132: 1851367567
-      street_133: 903722267
-      street_134: 743918097
-      street_135: 1286129877
-      street_136: 1364053988
-      street_137: 818154724
-      street_138: 1276779403
-      street_139: 44076411
+      street_130: -2050784407
+      street_131: -905496595
+      street_132: 1756631805
+      street_133: 1851367567
+      street_134: 903722267
+      street_135: 743918097
+      street_136: 1286129877
+      street_137: 1364053988
+      street_138: 818154724
+      street_139: 1276779403
       street_14: 2013725406
-      street_140: -1366990401
-      street_141: 416155278
-      street_142: -345176091
-      street_143: -541030507
-      street_144: -80096297
-      street_145: 2077745544
-      street_146: 614380960
-      street_147: 407110209
-      street_148: -2022798289
-      street_149: -1991235781
+      street_140: 44076411
+      street_141: -1366990401
+      street_142: 416155278
+      street_143: -345176091
+      street_144: -541030507
+      street_145: -80096297
       street_15: 557341527
-      street_150: -1416879282
-      street_151: -2115191096
-      street_152: -246336742
-      street_153: -141833775
-      street_154: -721038307
-      street_155: -17151359
-      street_156: -1285491155
-      street_157: -1867684283
-      street_158: 392810814
-      street_159: 887698594
       street_16: 1331046922
-      street_160: -866333125
-      street_161: -845085472
-      street_162: 388363781
-      street_163: 304258205
-      street_164: -948043795
-      street_165: -1791316547
-      street_166: 1918197225
-      street_167: -786653121
-      street_168: -929275736
-      street_169: -510687174
       street_17: 1362091340
-      street_170: -272449493
-      street_171: -1202427683
-      street_172: -1478811542
-      street_173: 773016545
-      street_174: 15388177
-      street_175: -1112244990
-      street_176: 168944286
-      street_177: -487530327
-      street_178: -1544580194
-      street_179: 713845539
       street_18: -1521642943
-      street_180: 1473884905
-      street_181: -242507808
-      street_182: -384709616
-      street_183: 1452343710
-      street_184: 8568489
-      street_185: -1236672183
-      street_186: 292004903
-      street_187: 654031309
-      street_188: 106902401
-      street_189: -2109513834
-      street_19: -1953166378
-      street_190: -1311517944
-      street_191: 109054098
-      street_192: 1616899354
-      street_193: 699000760
-      street_194: -1604787708
-      street_195: -901472983
-      street_196: 2056005379
-      street_197: 1435058807
-      street_198: 519765718
-      street_199: -173897750
+      street_19: 966804448
       street_2: -262710746
-      street_20: 440285602
-      street_200: 1891167680
-      street_201: -105257384
-      street_202: 43857008
-      street_203: -1416541056
-      street_204: -1851607290
-      street_205: 75967349
-      street_206: -1467186704
-      street_207: -1340039723
-      street_208: 741025995
-      street_209: 1534550367
-      street_21: -1203661966
-      street_210: 87179631
-      street_211: -985012331
-      street_212: 680429962
-      street_213: -832926640
-      street_214: 194030719
-      street_215: 1968870395
-      street_22: -1891335207
-      street_23: 441588904
-      street_24: -548594196
-      street_25: -225397416
-      street_26: -201088234
-      street_27: 1214068528
-      street_28: 1198624694
-      street_29: -753398926
+      street_20: -1953166378
+      street_21: 440285602
+      street_22: -1203661966
+      street_23: -1891335207
+      street_24: 441588904
+      street_25: -548594196
+      street_26: -225397416
+      street_27: -201088234
+      street_28: 1214068528
+      street_29: 1198624694
       street_3: 147784299
-      street_30: -2129575952
-      street_31: -1188647004
-      street_32: 443531717
-      street_33: -833172133
-      street_34: 1382243878
-      street_35: 1100578426
-      street_36: 1470674732
-      street_37: -1934260028
-      street_38: -604276478
-      street_39: 176907625
+      street_30: -753398926
+      street_31: -2129575952
+      street_32: -1188647004
+      street_33: 443531717
+      street_34: -833172133
+      street_35: 1382243878
+      street_36: 1100578426
+      street_37: 1470674732
+      street_38: -1934260028
+      street_39: -604276478
       street_4: 1309948597
-      street_40: -1620524137
-      street_41: -485001101
-      street_42: 810212365
-      street_43: -1517154644
-      street_44: -746535041
-      street_45: 951838060
-      street_46: 73742584
-      street_47: -1539199658
-      street_48: 1785832255
-      street_49: -61812161
+      street_40: 176907625
+      street_41: -1620524137
+      street_42: -485001101
+      street_43: 810212365
+      street_44: -1517154644
+      street_45: -746535041
+      street_46: 951838060
+      street_47: 73742584
+      street_48: -1539199658
+      street_49: 1785832255
       street_5: -726369493
-      street_50: -858916912
-      street_51: 351290473
-      street_52: 1461351752
-      street_53: -1382288699
-      street_54: -2108250992
-      street_55: 591400398
-      street_56: 386422129
-      street_57: 535782260
-      street_58: 1831937189
-      street_59: 1226336155
+      street_50: -61812161
+      street_51: -858916912
+      street_52: 351290473
+      street_53: 1461351752
+      street_54: -1382288699
+      street_55: -2108250992
+      street_56: 591400398
+      street_57: 386422129
+      street_58: 535782260
+      street_59: 1831937189
       street_6: 286326714
-      street_60: 368954326
-      street_61: -574533765
-      street_62: -1243903308
-      street_63: 780843379
-      street_64: -1213366374
-      street_65: -47443986
-      street_66: 205870794
-      street_67: -1706890762
-      street_68: -945255757
-      street_69: -1538795016
+      street_60: 1226336155
+      street_61: 368954326
+      street_62: -574533765
+      street_63: -1243903308
+      street_64: 780843379
+      street_65: -1213366374
+      street_66: -47443986
+      street_67: 205870794
+      street_68: -1706890762
+      street_69: -945255757
       street_7: -1419196476
-      street_70: 178263233
-      street_71: 888124
-      street_72: 1909454471
-      street_73: 750031329
-      street_74: -1203052877
-      street_75: -212977375
-      street_76: 1792113760
-      street_77: -1210237905
-      street_78: 588134452
-      street_79: 370280443
+      street_70: -1538795016
+      street_71: 178263233
+      street_72: 888124
+      street_73: 1909454471
+      street_74: 750031329
+      street_75: -1203052877
+      street_76: -212977375
+      street_77: 1792113760
+      street_78: -1210237905
+      street_79: 588134452
       street_8: 535654752
-      street_80: 1036509066
-      street_81: 261655891
-      street_82: 1011744983
-      street_83: -101200727
-      street_84: -888409423
-      street_85: -568710533
-      street_86: 2027188045
-      street_87: 603974434
-      street_88: -137608644
-      street_89: 558540232
+      street_80: 370280443
+      street_81: 1036509066
+      street_82: 261655891
+      street_83: 1011744983
+      street_84: -101200727
+      street_85: -888409423
+      street_86: -568710533
+      street_87: 2027188045
+      street_88: 603974434
+      street_89: -137608644
       street_9: -1933793096
-      street_90: 1223830936
-      street_91: -2073093473
-      street_92: -520423558
-      street_93: 737271632
-      street_94: 875045681
-      street_95: 91014411
-      street_96: -1913234520
-      street_97: 1329948018
-      street_98: 408653726
-      street_99: -866564722
+      street_90: 558540232
+      street_91: 1223830936
+      street_92: -2073093473
+      street_93: -520423558
+      street_94: 737271632
+      street_95: 875045681
+      street_96: 91014411
+      street_97: -1913234520
+      street_98: 1329948018
+      street_99: 408653726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
