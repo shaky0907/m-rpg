@@ -10,13 +10,32 @@ public class playerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
 
+    public string startpoint;
+
     Vector2 movement;
 
     public Animator animator;
 
-  
+    static bool playExists;
 
+    private void Start()
+    {
+        loadPlayer();
+        
+    }
 
+    void loadPlayer()
+    {
+        if (!playExists)
+        {
+            playExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     // Update is called once per frame
     void Update()
     {

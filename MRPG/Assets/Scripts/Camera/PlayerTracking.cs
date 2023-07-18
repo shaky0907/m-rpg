@@ -22,6 +22,8 @@ public class PlayerTracking : MonoBehaviour
 
     float step;
 
+    static bool camExists;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,12 +34,27 @@ public class PlayerTracking : MonoBehaviour
 
         Application.targetFrameRate = 60;
 
+        loadCam();
         
 
         halfHeight = cam.orthographicSize;
         halfWidth = cam.orthographicSize * Screen.width / Screen.height;
         
     }
+
+    void loadCam()
+    {
+        if (!camExists)
+        {
+            camExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
     // Update is called once per frame
     void Update()

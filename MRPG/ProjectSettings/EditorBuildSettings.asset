@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 72820bd4e3e0e884a8d1d02ab701565e
+    path: Assets/Scenes/Spawn.unity
+    guid: 05d7ca088279a0a4aa007a480e12c64f
+  - enabled: 1
+    path: Assets/Scenes/fountain map.unity
+    guid: 386ed53045a7f384db02c2f7ceaa5729
   m_configObjects: {}
