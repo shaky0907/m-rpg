@@ -7,22 +7,25 @@ public class LoadNewArea : MonoBehaviour
 {
 
     public string levelLoad;
-    public string startpoint;
+    public string Spawnpoint;
   
-    playerMovement player;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        player = FindAnyObjectByType<playerMovement>();
+        
+        
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.name == "Abby")
+        if (collision.CompareTag("player"))
         {
-            player.startpoint = startpoint;
+           
+            GameManager.Instance.spawnManager.playerSpawn = Spawnpoint;
+
             SceneManager.LoadScene(levelLoad);
         }
     }

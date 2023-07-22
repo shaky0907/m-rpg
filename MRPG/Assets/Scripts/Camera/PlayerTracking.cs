@@ -18,7 +18,7 @@ public class PlayerTracking : MonoBehaviour
     float halfHeight;
     float halfWidth;
 
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     float step;
 
@@ -28,39 +28,23 @@ public class PlayerTracking : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = player.GetComponent<Rigidbody2D>();
+        
         cam = GetComponent<Camera>();
         step = 5 * Time.deltaTime;
-
-        Application.targetFrameRate = 60;
-
-        loadCam();
-        
-
         halfHeight = cam.orthographicSize;
         halfWidth = cam.orthographicSize * Screen.width / Screen.height;
         
-    }
-
-    void loadCam()
-    {
-        if (!camExists)
-        {
-            camExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
 
     // Update is called once per frame
     void Update()
     {
-
-        Vector3 pos = new Vector3(rb.position.x, rb.position.y, cam.transform.position.z);
+        
+        
+        Vector3 pos  = new Vector3(rb.position.x, rb.position.y, cam.transform.position.z);
+       
+        
         transform.position = Vector3.Lerp(transform.position, pos,step);
 
         if (bBox == null)
@@ -82,6 +66,12 @@ public class PlayerTracking : MonoBehaviour
 
         minBounds = bBox.bounds.min;
         maxBounds = bBox.bounds.max;
+    }
+
+    public void setPlayer(GameObject obj)
+    {
+        player = obj;
+        rb = player.GetComponent<Rigidbody2D>();
     }
     
 }

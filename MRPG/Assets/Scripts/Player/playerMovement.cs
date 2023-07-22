@@ -10,32 +10,12 @@ public class playerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
 
-    public string startpoint;
-
     Vector2 movement;
 
     public Animator animator;
 
-    static bool playExists;
+    
 
-    private void Start()
-    {
-        loadPlayer();
-        
-    }
-
-    void loadPlayer()
-    {
-        if (!playExists)
-        {
-            playExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
     // Update is called once per frame
     void Update()
     {
@@ -48,18 +28,39 @@ public class playerMovement : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
         
+        Debug.Log(movement.x + " " + movement.y);
+
+        if (movement.y == 1)
+        {
+            animator.SetInteger("Direccion", 3);
+        }
+        else if(movement.y == -1)
+        {
+            animator.SetInteger("Direccion", 1);
+        }
+
+        else if (movement.x == 1)
+        {
+            animator.SetInteger("Direccion", 2);
+        }
+        else if (movement.x == -1)
+        {
+            animator.SetInteger("Direccion", 4);
+        }
 
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        if(Math.Abs(movement.x) == Math.Abs(movement.y))
+
+        if (Math.Abs(movement.x) == Math.Abs(movement.y))
         {
             rb.MovePosition(rb.position + movement * (moveSpeed/1.5f) * Time.fixedDeltaTime);
         }
         else {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }    
+
         
     }
 }

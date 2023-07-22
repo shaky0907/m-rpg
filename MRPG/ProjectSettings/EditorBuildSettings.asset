@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartUp.unity
+    guid: 1156b0785d9198345ae03dddb1a29adb
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 960b2b772765bd04c8a03519d2940178
+  - enabled: 1
     path: Assets/Scenes/Spawn.unity
     guid: 05d7ca088279a0a4aa007a480e12c64f
   - enabled: 1
-    path: Assets/Scenes/fountain map.unity
+    path: Assets/Scenes/MainRoadSpawn.unity
     guid: 386ed53045a7f384db02c2f7ceaa5729
+  - enabled: 1
+    path: Assets/Scenes/LeftMainRoad.unity
+    guid: de708fa8e583cf448b89a2562af7e04b
   m_configObjects: {}
