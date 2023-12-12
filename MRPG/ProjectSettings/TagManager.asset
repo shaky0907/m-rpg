@@ -3,10 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - player
-  - spawner
-  - Default Spawn
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -43,13 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ground
-    uniqueID: 822265815
-    locked: 0
-  - name: Objects
-    uniqueID: 2050294515
-    locked: 0
-  - name: Player
-    uniqueID: 566614251
     locked: 0
